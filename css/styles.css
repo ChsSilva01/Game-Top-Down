@@ -27,12 +27,23 @@ img{
 
 #ZxlW{
     margin-top: 40%;
-    width: 117px;
-    height: 25px;
+    width: 110px;
+    height: 90px;
     margin-left: 80%;
-    background-color: #d9d9d9;
+    display: flex;
+    align-items: center;
 }
-
+#Esquerda,#Cima,#Direita,#Baixo{
+    width: 100px;
+    height: 30px;
+    position: relative;
+    background-color: #964b00;
+}
+#Cima{
+    margin-bottom: 60px;
+    width: 100px;
+    right: 55px;
+}
 #CwKg{
     width: 100%;
     height: 100%;

@@ -1,0 +1,89 @@
+#w{
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-image: url(../img/Fundo.png);
+    background-color: #050304;
+}
+img{
+    width: 100%;
+    height: 99%;
+}
+
+.Halley{
+    width: 78px;
+    height: 122px;  
+    background-image: url(../img/Halley.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 60px;
+    top: 230px;
+    z-index: 1;
+}
+
+#ZxlW{
+    margin-top: 40%;
+    width: 117px;
+    height: 25px;
+    margin-left: 80%;
+    background-color: #d9d9d9;
+}
+
+#CwKg{
+    width: 100%;
+    height: 100%;
+}
+
+.Bjyi{
+    z-index: 2;
+    position: absolute;
+    left: 22%;
+    width: 44.5%;
+    top: 37%;
+}
+
+.hobo{
+    width: 3.5%;
+    height: 7.7%;
+    padding-left: 35%;
+    padding-top: 23.5%;
+    position: absolute;
+    z-index: 2;
+}
+
+.Qdzw{
+    width: 3.5%;
+    height: 7.7%;
+    padding-left: 40.6%;
+    padding-top: 23.5%;
+    position: absolute;
+    z-index: 2;
+}
+@keyframes baixo{
+    0%{background-image: url(../img/Halley-b1.png);}
+    33%{background-image: url(../img/Halley-b2.png);}
+    66%{background-image: url(../img/Halley-b3.png);}
+    100%{background-image: url(../img/Halley-b4.png);}
+}
+@keyframes direita{
+    0%{background-image: url(../img/Halley-d1.png);}
+    33%{background-image: url(../img/Halley-d2.png);}
+    66%{background-image: url(../img/Halley-d3.png);}
+    100%{background-image: url(../img/Halley-d4.png);}
+}
+@keyframes cima{
+    0%{background-image: url(../img/Halley-c1.png);}
+    33%{background-image: url(../img/Halley-c2.png);}
+    66%{background-image: url(../img/Halley-c3.png);}
+    100%{background-image: url(../img/Halley-c4.png);}
+}
+@keyframes esquerda{
+    0%{background-image: url(../img/Halley-e1.png);}
+    33%{background-image: url(../img/Halley-e2.png);}
+    66%{background-image: url(../img/Halley-e3.png);}
+    100%{background-image: url(../img/Halley-e4.png);}
+}
